@@ -61,3 +61,106 @@ This project implements two deep learning architectures for fracture detection i
 
 ## 📁 Repository Structure
 
+AETHEA-Fracture-Detection/
+│
+├── docs/              # Project documentation and reports
+├── datasets/          # Dataset info (data not included)
+├── models/            # Trained model weights and configs
+├── notebooks/         # Training and evaluation notebooks
+├── interfaces/        # Inference interfaces (Gradio + Jupyter)
+├── scripts/           # Utility scripts (sampling, filtering, export)
+├── results/           # Performance charts and metrics
+├── requirements.txt   # Python dependencies
+├── LICENSE            # MIT License
+└── README.md          # This file
+
+
+---
+
+## 🔧 Dataset Preparation
+
+- **Sampling:** Balanced subset (6,000 images) with 70/15/15 split.
+- **Outlier Filtering:** Removes blurry, zoomed, or distorted images (~18% removed → +5–10% performance).
+
+---
+
+## 🚀 Training Instructions
+
+- **YOLOv8 (Recommended):**
+  - Shoulder & Arm: 86 epochs, ~12h (Tesla T4 GPU)
+  - Hips & Pelvis: 38 epochs, ~5h
+- **Faster R-CNN (Detectron2):**
+  - ResNet-50-FPN backbone, 15k iterations, ~3.5h
+
+---
+
+## 💻 Inference Instructions
+
+- **Option 1:** Gradio Web Interface → `python interfaces/gradio_app.py`
+- **Option 2:** Jupyter Notebook → `interfaces/shoulder_arm_yolov8_interface.ipynb`
+
+Features:
+- Upload X-ray (JPG/PNG/JPEG)
+- Confidence threshold slider
+- Annotated bounding boxes + confidence scores
+- Medical recommendation output
+
+---
+
+## 📤 Model Export Formats
+
+Supports **ONNX**, **TorchScript**, and **TensorFlow SavedModel** for deployment.
+
+---
+
+## 📊 Evaluation Metrics
+
+- mAP50, mAP50-95
+- Precision, Recall
+- Per-class AP
+
+---
+
+## 📦 Dependencies
+
+```bash
+pip install -r requirements.txt
+
+---
+
+## 📦 Dependencies
+
+Core: `torch`, `ultralytics`, `detectron2`, `opencv-python`, `gradio`, `ipywidgets`
+
+---
+
+## 🎯 Key Results Summary
+
+| Body Region   | Best Model | mAP50 | Precision | Recall | Inference Time |
+|---------------|------------|-------|-----------|--------|----------------|
+| Shoulder & Arm | YOLOv8m | 87.6% | 89.9% | 85.2% | 0.03 sec |
+| Hips & Pelvis | YOLOv8m | 79.7% | 86.9% | 75.0% | 0.03 sec |
+
+## ⚠️ Medical Disclaimer
+
+**FOR RESEARCH AND EDUCATIONAL PURPOSES ONLY**  
+This system is an AI-assisted screening tool. All detections must be verified by a qualified medical professional. Do not use as the sole basis for diagnosis or treatment decisions.
+
+---
+
+## 📄 License
+
+MIT License – see the LICENSE file.
+
+---
+
+## 📧 Contact
+
+| Name        | ID        | Email |
+|-------------|-----------|-------------------------------|
+| Andrew Wageh | 192100099 | 192100099@ecu.edu.eg |
+| Omar Atwa    | 192100141 | 192100141@ecu.edu.eg |
+
+Egyptian Chinese University – Faculty of Computer Science  
+Spring 2026
+
