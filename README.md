@@ -125,7 +125,7 @@ Supports **ONNX**, **TorchScript**, and **TensorFlow SavedModel** for deployment
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 📦 Dependencies
