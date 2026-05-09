@@ -163,6 +163,6 @@ MIT License – see the LICENSE file.
 | Andrew Wageh | 192100099 | 192100099@ecu.edu.eg |
 | Omar Atwa    | 192100141 | 192100141@ecu.edu.eg |
 
-Egyptian Chinese University – Faculty of Computer Science  
+Egyptian Chinese University – Faculty of Software Engineering  
 Spring 2026
 
