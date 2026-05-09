@@ -141,6 +141,8 @@ Core: `torch`, `ultralytics`, `detectron2`, `opencv-python`, `gradio`, `ipywidge
 | Shoulder & Arm | YOLOv8m | 87.6% | 89.9% | 85.2% | 0.03 sec |
 | Hips & Pelvis | YOLOv8m | 79.7% | 86.9% | 75.0% | 0.03 sec |
 
+---
+
 ## ⚠️ Medical Disclaimer
 
 **FOR RESEARCH AND EDUCATIONAL PURPOSES ONLY**  
