@@ -53,7 +53,7 @@ This project implements two deep learning architectures for fracture detection i
 | Model | mAP50 | Precision | Recall | Inference Speed |
 |-------|-------|-----------|--------|-----------------|
 | YOLOv8m | **87.6%** | 89.9% | 85.2% | ~0.03 sec/image |
-| Faster R-CNN | 48.6% | — | — | ~0.5 sec/image |
+| Faster R-CNN | 48.6% | 43.68 | 41.76 | ~0.5 sec/image |
 
 **Key Finding:** YOLOv8m significantly outperforms Faster R-CNN in both accuracy and speed, making it the recommended model for deployment.
 
