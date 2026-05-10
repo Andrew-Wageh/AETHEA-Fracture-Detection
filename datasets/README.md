@@ -12,8 +12,8 @@ This README explains where to obtain the datasets and how to prepare them for tr
 
 | Dataset        | Body Region     | Total Images | Classes | Format | Size   |
 |----------------|-----------------|--------------|---------|--------|--------|
-| Hips & Pelvis  | Hips, Pelvis    | 12,218       | 3       | YOLO   | ~8 GB  |
-| Shoulder & Arm | Shoulder, Arm   | 27,480       | 1       | YOLO   | ~32 GB |
+| Hips & Pelvis  | Hips, Pelvis    | 12,218       | 3       | YOLO   | ~2 GB  |
+| Shoulder & Arm | Shoulder, Arm   | 27,480       | 1       | YOLO   | ~4 GB |
 
 ---
 
