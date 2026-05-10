@@ -27,10 +27,8 @@
 | Class ID | Name | Training Instances | Validation Instances | Notes |
 |----------|------|-------------------|---------------------|-------|
 | 0 | fracture | 9,591 | 196 | Hip fractures |
-| 1 | no fracture | 14,356 | 181 | Negative samples |
-| 2 | pelvic_fracture | ~50 | 0 | Limited representation |
-
-> **Important:** Class 2 (pelvic_fracture) has zero instances in the validation set, meaning the model cannot be properly validated on this class.
+| 1 | no fracture | 7,356 | 181 | pelvic Non-Negative |
+| 2 | pelvic_fracture | 7,350 | 612 | pelvic fracture|
 
 ---
 
@@ -242,4 +240,3 @@ If using this dataset, please cite:
 
 ---
 
-*Last Updated: May 2026*
