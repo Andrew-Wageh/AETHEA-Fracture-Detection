@@ -84,7 +84,7 @@ python ../scripts/dataset_sampling.py
 ---
 
 ## Output Structure
-
+```text
 SAMPLED_DATASET_BALANCED/
 ├── data.yaml
 ├── train/
@@ -96,6 +96,7 @@ SAMPLED_DATASET_BALANCED/
 └── test/
     ├── images/  (900 images)
     └── labels/  (900 .txt files)
+```
 ---
 
 ## Step 3: Outlier Detection & Filtering
