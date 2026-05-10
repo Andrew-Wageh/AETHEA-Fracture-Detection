@@ -68,8 +68,6 @@ AETHEA-Fracture-Detection/
 ├── models/            # Trained model weights and configs
 ├── notebooks/         # Training and evaluation notebooks
 ├── interfaces/        # Inference interfaces (Gradio + Jupyter)
-├── scripts/           # Utility scripts (sampling, filtering, export)
-├── results/           # Performance charts and metrics
 ├── requirements.txt   # Python dependencies
 ├── LICENSE            # MIT License
 └── README.md          # This file
