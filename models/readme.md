@@ -59,7 +59,7 @@ All trained model weights are available for download via Google Drive:
 
 ## Hips & Pelvis Models
 
-### YOLOv8m ✅ Recommended
+### YOLOv8m ✅ Efficient 
 
 #### Performance
 
