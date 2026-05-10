@@ -60,7 +60,7 @@ This project implements two deep learning architectures for fracture detection i
 ---
 
 ## 📁 Repository Structure
-
+```text
 AETHEA-Fracture-Detection/
 │
 ├── docs/              # Project documentation and reports
@@ -73,7 +73,7 @@ AETHEA-Fracture-Detection/
 ├── requirements.txt   # Python dependencies
 ├── LICENSE            # MIT License
 └── README.md          # This file
-
+```
 
 ---
 
