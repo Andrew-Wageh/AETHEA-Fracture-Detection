@@ -25,7 +25,7 @@ This README explains where to obtain the datasets and how to prepare them for tr
 - **Classes:** 0 = fracture, 1 = no fracture, 2 = pelvic_fracture
 
 ### Shoulder & Arm Dataset
-- **Kaggle Link:** [Shoulder and Arm Fracture Dataset]([https://www.kaggle.com/datasets/andrewwageh111/arm-and-shoulder-fracture-dataset](https://www.kaggle.com/datasets/andrewwageh111/arm-and-shoulder-fracture-dataset))
+- **Kaggle Link:** [Shoulder and Arm Fracture Dataset](https://www.kaggle.com/datasets/andrewwageh111/arm-and-shoulder-fracture-dataset)
 - **Contents:** Filtered shoulder and arm X-ray images
 - **Classes:** 0 = fracture (binary classification)
 
